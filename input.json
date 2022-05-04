@@ -1,16 +1,18 @@
 {
-"containerDefinitions": [
-    {
-        "name": "sleep",
-        "image": "688164270212.dkr.ecr.us-east-1.amazonaws.com/my-repo:latest",
-        "cpu": 10,
-        "command": [
-            "sleep",
-            "360"
-        ],
-        "memory": 10,
-        "essential": true
-    }
-],
-"family": "task-defination"
+    "family": "webserver",
+    "containerDefinitions": [
+        {
+            "name": "web",
+            "image": "016743245065.dkr.ecr.us-east-1.amazonaws.com/my-repo",
+            "memory": "100",
+            "cpu": "99"
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "networkMode": "awsvpc",
+    "memory": "512",
+    "cpu": "256"
 }
+
