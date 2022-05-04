@@ -1,5 +1,5 @@
 {
-    "family": "webserver",
+    "family": "task-defination",
     "containerDefinitions": [
         {
             "name": "web",
