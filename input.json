@@ -2,7 +2,7 @@
 "containerDefinitions": [
     {
         "name": "sleep",
-        "image": "my-repo",
+        "image": "688164270212.dkr.ecr.us-east-1.amazonaws.com/my-repo:latest",
         "cpu": 10,
         "command": [
             "sleep",
@@ -12,5 +12,5 @@
         "essential": true
     }
 ],
-"family": "sleep360"
+"family": "task-defination"
 }
