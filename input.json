@@ -1,18 +1,15 @@
 {
-    "family": "task-defination",
     "containerDefinitions": [
-        {
-            "name": "web",
-            "image": "738333021806.dkr.ecr.us-east-1.amazonaws.com/my-repo",
-            "essential": true
-            
-        }
+      {
+        "name": "sample-app",
+        "image": "738333021806.dkr.ecr.us-east-1.amazonaws.com/my-repo",
+        "memory": 200,
+        "cpu": 10,
+        "essential": true
+      }
     ],
-    "memory": 512,
-    "cpu": 256,
+    "family": "task-defination",
     "requiresCompatibilities": [
         "FARGATE"
     ],
-    "networkMode": "awsvpc"
-    
-}
+  }
