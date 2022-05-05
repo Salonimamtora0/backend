@@ -10,5 +10,5 @@
         "FARGATE"
     ],
     "memory": 200,
-    "cpu": 10,
+    "cpu": 10
 }
