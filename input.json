@@ -2,8 +2,13 @@
     "containerDefinitions": [{
         "name": "my-repo",
         "image": "738333021806.dkr.ecr.us-east-1.amazonaws.com/my-repo",
-        "essential": true
+        "essential": true,
+        "portMappings": [{
+            "containerPort": 5000 ,
+            "hostPort": 5000
+        }]
     }],
+  
     "family": "task-defination",
     "networkMode": "awsvpc",
     "requiresCompatibilities": [
