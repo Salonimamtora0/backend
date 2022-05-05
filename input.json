@@ -5,8 +5,8 @@
             "name": "web",
             "image": "738333021806.dkr.ecr.us-east-1.amazonaws.com/my-repo",
             "essential": true,
-            "memory": 100,
-            "cpu": 99
+            "memory": 512,
+            "cpu": 256
         }
     ],
     "requiresCompatibilities": [
