@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "web",
-            "image": "016743245065.dkr.ecr.us-east-1.amazonaws.com/my-repo",
+            "image": "738333021806.dkr.ecr.us-east-1.amazonaws.com/my-repo",
             "memory": "100",
             "cpu": "99"
         }
