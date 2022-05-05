@@ -1,6 +1,6 @@
 {
     "containerDefinitions": [{
-        "name": "sample-app",
+        "name": "my-repo",
         "image": "738333021806.dkr.ecr.us-east-1.amazonaws.com/my-repo",
         "essential": true
     }],
