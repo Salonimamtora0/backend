@@ -1,15 +1,14 @@
 {
-    "containerDefinitions": [
-      {
+    "containerDefinitions": [{
         "name": "sample-app",
         "image": "738333021806.dkr.ecr.us-east-1.amazonaws.com/my-repo",
         "memory": 200,
         "cpu": 10,
         "essential": true
-      }
-    ],
+    }],
     "family": "task-defination",
+    "networkMode": "awsvpc",
     "requiresCompatibilities": [
         "FARGATE"
-    ],
-  }
+    ]
+}
